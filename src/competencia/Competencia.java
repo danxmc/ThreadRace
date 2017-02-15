@@ -59,26 +59,26 @@ public class Competencia extends javax.swing.JFrame {
 
         c1.setFont(new java.awt.Font("Berlin Sans FB", 0, 14)); // NOI18N
         c1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        c1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.jpg"))); // NOI18N
+        c1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.png"))); // NOI18N
         c1.setText("Ed");
         c1.setToolTipText("");
         c1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         c1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
         c2.setFont(new java.awt.Font("Berlin Sans FB", 0, 14)); // NOI18N
-        c2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.jpg"))); // NOI18N
+        c2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.png"))); // NOI18N
         c2.setText("Louise");
         c2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         c2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
         c3.setFont(new java.awt.Font("Berlin Sans FB", 0, 14)); // NOI18N
-        c3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.jpg"))); // NOI18N
+        c3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.png"))); // NOI18N
         c3.setText("Ivan");
         c3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         c3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
         c4.setFont(new java.awt.Font("Berlin Sans FB", 0, 14)); // NOI18N
-        c4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.jpg"))); // NOI18N
+        c4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/competencia/caballito.png"))); // NOI18N
         c4.setText("Ernest");
         c4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         c4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -144,7 +144,7 @@ public class Competencia extends javax.swing.JFrame {
                         .addComponent(c3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(c4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelLayout.createSequentialGroup()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)

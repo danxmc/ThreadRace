@@ -38,6 +38,11 @@ public class Caballo extends Thread {
 
     @Override
     public void run() {
+        if (place>=4) {
+            place=0;
+            winnerPlace.setText("");
+            txt.setText("");
+        }
         for (int i = 0; i < 100; i++) {
             
             //Create random varable for wait time
