@@ -38,8 +38,8 @@ public class Caballo extends Thread {
 
     @Override
     public void run() {
-        if (place>=4) {
-            place=0;
+        if (place >= 4) {
+            place = 0;
             winnerPlace.setText("");
             txt.setText("");
         }
@@ -70,5 +70,9 @@ public class Caballo extends Thread {
         System.out.println("Llega a la meta: " + getName() + " en " + place + " lugar");
         txt.append("Llega a la meta: " + getName() + " en " + place + " lugar" + "\n");
     }
-    
+
+    public void reset() {
+        this.x = 0;
+        c.setLocation(0, this.y);
+    }
 }

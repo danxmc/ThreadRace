@@ -180,6 +180,12 @@ public class Competencia extends javax.swing.JFrame {
         Caballo cab2 = new Caballo("Louise", c2, txt, winner);
         Caballo cab3 = new Caballo("Ivan", c3, txt, winner);
         Caballo cab4 = new Caballo("Ernest", c4, txt, winner);
+
+        cab1.reset();
+        cab2.reset();
+        cab3.reset();
+        cab4.reset();
+
         cab1.start();
         cab2.start();
         cab3.start();
